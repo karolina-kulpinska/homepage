@@ -1,0 +1,153 @@
+html {
+    box-sizing: border-box;
+}
+*,::after, ::before {
+    box-sizing: inherit;
+}
+.table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 0px -9px 11px 3px #FF4635;
+    background-color: #C1B9B8;
+}
+.table__cell {
+    border: 1px solid rgb(21, 22, 21);
+    padding: 10px;
+    vertical-align: middle;
+}
+.table__header {
+    background-color: rgb(238, 191, 191);
+    color:rgb(14, 9, 3);
+    font-weight: normal;
+}
+.table__row:hover {
+    background-color: rgb(236, 229, 229);
+}
+.container {
+    overflow-x: auto;
+}
+.header__heading {
+   border: 3px inset rgb(142, 102, 102);
+   text-align: center;
+   font-family: 'Climate Crisis', cursive;
+   background-color: rgba(255, 5, 5, 0.705);
+   font-style: italic;
+   box-shadow: 0px -1px 18px 15px #C1B9B8;
+ border-radius: 10px;
+}
+.navigation__item {
+    list-style-type: none;
+    padding: 2% 10%;
+    overflow: hidden;
+    background-color: rgba(180, 24, 13, 0.587);
+    max-width: 100%;
+    border-radius: 10px 10px 100px 100px;
+    font-family: "lato" , sans-serif;
+    box-shadow: 0px -1px 18px 15px #C1B9B8;
+}
+.navigation__item--li {
+    float: initial;
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding-left: 10%;
+  padding-right: 10%;
+  max-width: 100%;
+  text-align: center;
+}
+  
+.header__section {
+    border: 2px solid black; 
+    background-color: #C1B9B8;
+    border-radius: 10px;
+    max-width: 100%;
+    font-family: "lato" , sans-serif;
+    font-size: small;
+    float: inline-end;
+    padding: 2px;
+    text-decoration: none;
+}
+.section__image {
+    border-radius: 10px;
+    max-width: 100%;
+}
+.section__header {
+    border: 4px double rgb(14, 14, 14);
+    background-color: rgb(238, 59, 27);
+    border-radius: 10px;
+    text-align: center;
+    font-family: "lato" , sans-serif;
+}
+.footer__headerSix {
+    border: 4px double rgb(14, 14, 14);
+    background-color: rgb(238, 59, 27);
+    border-radius: 10px;
+    text-align: center;
+    font-family: "lato" , sans-serif;
+}
+.section__paragraph {
+    text-align: center;
+    font-family: "lato" , sans-serif;
+    line-height: 1,5;
+    font-size: 18px;
+    background-color: #C1B9B8;
+    border-radius: 10px;
+    padding: 15px;
+}
+.list__item {
+    margin: 10px 0;
+}
+.list {
+    padding-left: 29px;
+}
+.ordered__list {
+    list-style-type: decimal;
+    background-color: #C1B9B8;
+    border-radius: 10px;
+    padding: 20px;
+}
+.unordered__list {
+    list-style-type: square;
+    background-color: #C1B9B8;
+    border-radius: 10px;
+    padding: 20px;
+}
+.dark {
+    color:rgb(246, 243, 243);
+    background: #0a0a0a;
+}
+.body {
+    color: rgb(1, 1, 1);
+    font-family: "Lato" , sans-serif;
+    max-width: 1000px;
+    border: 2px;
+    margin: auto;
+    padding: 15px;
+    border: 2px;
+    line-height: 1.5;
+    font-size: 17px;
+}
+.paragraphe {
+    background-color: #C1B9B8;
+    border-radius: 10px;
+    padding: 11px;
+}
+.footer__contact {
+    background-color: #C1B9B8;
+    border-radius: 10px;
+    padding: 10px;
+}
+.header__button {
+    background-color: #C1B9B8;
+    border-radius: 10px;
+    float: right;
+    padding: 2px;
+}
+.link {
+    text-decoration: none;
+}
