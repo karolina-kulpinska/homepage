@@ -1,4 +1,4 @@
-let button = document.querySelector(".body__button");
+let button = document.querySelector(".header__button");
 let body = document.querySelector(".body");
 let themeName = document.querySelector(".themeName")
 
